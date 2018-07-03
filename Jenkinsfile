@@ -12,7 +12,7 @@ pipeline {
                     --cache=$HOME/.npm/.cache/cnpm \
                     --disturl=https://npm.taobao.org/dist \
                     --userconfig=$HOME/.cnpmrc"'
-                sh 'npm install' 
+                sh 'cnpm install' 
             }
         }
     }
